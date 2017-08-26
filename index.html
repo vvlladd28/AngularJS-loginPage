@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="Authentication">
+  <head>
+    <meta charset="utf-8" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/languages.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+  	<nav-bar></nav-bar>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4">
+          <div ng-view></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/bootstrap/js/jquery-2.0.3.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="lib/angular/angular-cookies.min.js"></script>
+    <script src="lib/angular/angular-translate.min.js"></script>
+    <script src="lib/angular/angular-translate-loader-static-files.min.js"></script>
+    <script src="lib/angular/angular-translate-storage-cookie.min.js"></script>
+    <script src="lib/angular/angular-translate-storage-local.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="modules/navbar/controllers.js"></script>
+    <script src="modules/navbar/directives.js"></script>
+    <script src="modules/login/services.js"></script>
+    <script src="modules/login/controllers.js"></script>
+    <script src="modules/home/controllers.js"></script>
+  </body>
+
+</html>

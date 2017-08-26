@@ -1,0 +1,19 @@
+{
+	"navbar":{
+		"Hello": "Hello",
+		"Logout": "Logout",
+		"Brand": "Authentication"
+	},
+	"homePg":{
+		"Home": "Home page",
+		"Hello": "Hi"
+	},
+	"loginPg":{
+		"Username":"Username",
+		"Password":"Password",
+		"Login":"Login",
+		"Incorect":"Username or password is incorrect",
+		"UsIsRequ":"Username is required",
+		"PsIsRequ":"Password is required"
+	}
+}
